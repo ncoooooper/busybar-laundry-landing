@@ -4,6 +4,6 @@
   "name": "Laundry Landing",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Laundry Landing",
+  "description": "Use a washer's measured power history to separate normal drum pauses from a finished cycle.",
   "author": "ncoooooper"
 }

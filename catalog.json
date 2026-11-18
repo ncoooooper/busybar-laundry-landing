@@ -1,0 +1,6 @@
+{
+  "category": "smart-home",
+  "short_description": "Use a washer's measured power history to separate normal drum pauses from a finished cycle.",
+  "description": "Use a washer's measured power history to separate normal drum pauses from a finished cycle. Choose the Home Assistant URL and a power sensor in W or kW. Put a read-only-access HA_TOKEN in the companion environment where available. Thresholds active_watts and idle_watts use watts. After observing an active cycle, continuous low power for settle_seconds is required. A mid-cycle wake-up cancels the countdown. Start the companion before the cycle.",
+  "changelog": "First public version."
+}

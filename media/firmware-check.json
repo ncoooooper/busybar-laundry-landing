@@ -1,0 +1,40 @@
+{
+  "id": "BB-027",
+  "source": "Replayed three appliance power measurements through the production state machine.",
+  "scenario": "150 W armed a cycle. The idle state persisted past the configured 180 seconds and produced Finished.",
+  "keys": [
+    "up",
+    "down",
+    "ok"
+  ],
+  "frames": 54,
+  "distinct_frames": 13,
+  "exit": "App io.ncoooooper.laundrylanding exited: finished; heap peak 81.6 of 128 KiB",
+  "sha256": "4df3729c0159ec12ebbd7a77994014d5caf20e0eceb10a5f816ba1a209d310c9",
+  "pages": [
+    {
+      "caption": "WASHER",
+      "value": "Finished",
+      "lines": [
+        "Power 0 W",
+        "Read-only smart plug"
+      ]
+    },
+    {
+      "caption": "LOAD",
+      "value": "0W",
+      "lines": [
+        "Active above 20 W",
+        "Confirm idle for 180s"
+      ]
+    }
+  ],
+  "initial": {
+    "caption": "WASHER",
+    "value": "Finished",
+    "lines": [
+      "Power 0 W",
+      "Read-only smart plug"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "home_assistant": "http://homeassistant.local:8123",
+  "entity": "sensor.washer_power",
+  "active_watts": 20,
+  "idle_watts": 3,
+  "settle_seconds": 180
+}

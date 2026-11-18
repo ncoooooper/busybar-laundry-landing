@@ -2,7 +2,7 @@
   "name": "busybar-laundry-landing",
   "private": true,
   "version": "0.1.0",
-  "description": "Laundry Landing",
+  "description": "Use a washer's measured power history to separate normal drum pauses from a finished cycle.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
