@@ -6,6 +6,20 @@ A washer often stops drawing much power between parts of a cycle. By waiting for
 
 Three blocks track the washer through washing, settling and finished. A short pause can return the display to washing. All three blocks turn green only after the configured idle period.
 
+## Screen transitions
+
+Follow the change from drum activity to the laundry status.
+
+![Laundry Landing front display. Follow the change from drum activity to the laundry status.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Laundry Landing rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Distinguish a drum pause from the end
 
 1. Start the companion before the cycle. Configure the washer’s power sensor, active and idle thresholds, and settling time.
@@ -44,6 +58,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
