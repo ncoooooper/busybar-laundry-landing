@@ -4,6 +4,8 @@ Use a washer's measured power history to separate normal drum pauses from a fini
 
 A washer often stops drawing much power between parts of a cycle. By waiting for sustained idle power after a real wash, the bar avoids calling you to the machine during a brief pause.
 
+Three blocks track the washer through washing, settling and finished. A short pause can return the display to washing. All three blocks turn green only after the configured idle period.
+
 ## Distinguish a drum pause from the end
 
 1. Start the companion before the cycle. Configure the washer’s power sensor, active and idle thresholds, and settling time.

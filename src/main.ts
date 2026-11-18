@@ -1,14 +1,12 @@
+import {marks} from "./front";
 import {instrument} from "@shared/instrument";
 
 instrument({
+  marks,
   "title": "LAUNDRY LANDING",
   "primary": "Laundry Landing",
   "accent": "#78C8DD",
   "cadence": 15000,
-  "motion": {
-    "motif": "pour",
-    "color": "#78C8DD",
-    "shine": "#FFF2D6"
-  },
+  "motion": {enabled:false},
   "setup": "Start companion/serve.py"
 });

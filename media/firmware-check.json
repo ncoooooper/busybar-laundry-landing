@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 13,
   "exit": "App io.ncoooooper.laundrylanding exited: finished; heap peak 81.6 of 128 KiB",
-  "sha256": "86752097592fea215037658c4adf3a814246ffcd3424c0278d3bd434dc0cfb33",
+  "sha256": "8da630acb7e637dfc449688d57308d1cf1e46343397f27e768bee33b876d4d58",
   "pages": [
     {
       "caption": "WASHER",
@@ -51,9 +51,9 @@
     ],
     "frames": 128,
     "distinct_by_flow": [
-      7,
-      11
+      3,
+      2
     ],
-    "exit": "App io.btype.laundrylanding exited: finished; heap peak 87.5 of 128 KiB"
+    "exit": "App io.btype.laundrylanding exited: finished; heap peak 84.2 of 128 KiB"
   }
 }
