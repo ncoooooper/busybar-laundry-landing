@@ -22,7 +22,7 @@ A washer often stops drawing much power between parts of a cycle. By waiting for
 
 ## Example from the emulator
 
-The test replayed a 150 W active reading followed by a low load maintained past the 180-second setting. A machine that stayed idle from the first observation would remain in standby, since no active cycle had been observed. Replayed three appliance power measurements through the production state machine.
+The test replayed a 150 W active reading followed by a low load maintained past the 180-second setting. A machine that stayed idle from the first observation would remain in standby, since no active cycle had been observed. The recorded state comes from three test measurements replayed through the washer state machine.
 
 ## Set up the source
 
